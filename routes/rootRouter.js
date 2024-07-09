@@ -1,9 +1,9 @@
 import express from 'express';
 import { index } from '../controller/index.js';
-import commentRouter from './commentRouter.js';
 import roomRouter from './roomRouter.js';
 import userRouter from './userRouter.js';
 import bookingRouter from './bookingRouter.js';
+import commentRouter from './commentRouter.js';
 
 const rootRouter = express.Router();
 
